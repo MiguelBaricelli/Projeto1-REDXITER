@@ -1,0 +1,228 @@
+* {
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+margin: 0;
+padding: 0;
+
+}
+
+:root {
+
+    --color-primary: #ED4D1B;
+    --color-secondary: #FF9A3C;
+    --color-black: #000000;
+    --color-white: #ffffff;
+
+ 
+}
+
+body {
+background: linear-gradient(to top left, #ee0b03 20%, #000);
+padding: 0 1rem;
+
+}
+
+header,
+.hero-section,
+.courses-section,
+footer
+{
+
+    border-color: var(--color-black);
+    border-style: solid;
+    border-width: 0 1px 1px 1px;
+    padding: 1.25rem;
+}
+
+header img {
+
+display: block;
+margin: 1rem auto;
+
+
+}
+
+
+header nav {
+
+display: grid;
+grid-template-columns: 1fr 1fr;
+
+}
+
+nav a {
+    color: var(--color-black);
+    font-size: 1.25rem;
+    padding: .5rem;
+    text-decoration: none;
+}
+
+header nav a:nth-child(2n-1) {
+ text-align: right;
+ }
+
+.button {
+
+    background-color: var(--color-primary);
+border: 2px solid var(--color-black);
+box-shadow: 4px 4px 0 var(--color-black);
+color: var(--color-black);
+display: block;
+font-size: 1.25rem;
+padding: 2rem 1rem;
+max-width: 14rem;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+
+}
+
+.hero-section {
+
+    padding-right: 0;
+    padding-bottom: 16rem;
+    display: block;
+margin: 1.25rem 0 0 auto;
+max-width: 100%;
+
+
+}
+
+
+
+
+h1{
+
+    font-size: 3rem;
+    line-height: 105%;
+
+}
+
+h2 {
+
+    font-size: 2.5rem;
+}
+
+.hero-section {
+font-size: 1.25rem;
+padding-right: 1.25rem;
+
+}
+
+.courses-section {
+padding-bottom: 8rem;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.25rem;
+    margin-top: -8rem;
+    margin-bottom: 4rem;
+}
+
+.card {
+
+background-color: var(--color-primary );
+border: 2px solid var(--color-black);
+box-shadow: 4px 4px 0 black;
+max-width: 17rem;
+padding: 2rem 0 0 2rem;
+
+}
+
+.card:nth-child(2n) {
+
+    align-self: end;
+    background-color: var(--color-secondary);
+}
+
+.card strong {
+
+    display: block;
+    font-size: 1.5rem;
+    margin: 1rem 0;
+}
+
+.card a {
+
+    display: block;
+    margin: 3rem 0 0 auto;
+    width: fit-content;
+}
+
+img {
+ 
+    width: 300px;
+
+}
+/*rodape*/
+
+footer {
+
+    border-bottom: 0;
+    padding: 1rem 1.25rem 4rem;
+}
+
+footer nav a {
+
+    display: block;
+    padding-left: 0;
+
+}
+
+.newletter-form label {
+    display: block;
+    font-size: 1.5rem;
+
+}
+
+.newletter-form input {
+    border: 2px solid black;
+    box-shadow: 4px 4px 0 var(--color-black);
+    font-size: 1.5rem;
+    padding: .5rem;
+    width: 100%;
+}
+
+/*ultilitarios */ 
+
+.mt-1 {
+
+margin-top: 1rem;
+}
+
+.met-2 {
+margin-top: 2rem;
+
+}
+
+.mb-1 {
+    margin-bottom: 1rem;
+
+}
+
+.mb-2 {
+
+    margin-bottom: 2rem;
+
+}
+
+.mx-auto {
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-primary {
+color: var(--color-primary);
+
+}
+
+.text-center {
+text-align: center;
+
+}
+
