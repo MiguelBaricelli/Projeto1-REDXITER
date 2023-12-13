@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="comunidade.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Comunidade RedXiter</title>
+</head>
+<body>
+   
+    <h1> Comunidade RedXiter</h1>
+    <h2> Canal oficial da RedXiter!</h2>
+    <p> Quer encontrar informações sobre o programa? <br> Está tudo aqui na comunidade</p>
+
+    <h2> Número de membros: 50.540 mil usuários</h2>
+    <p> ===================================================================================================</p>
+    <h3> Faça seu primeiro comentário: </h3>
+    <input type="text" class="comentario">
+    <h3 class="valorComentario"> Ache algum video aqui: </h3>
+    <input id="id">
+    <h3> Poste algum video aqui: </h3>
+   <input type="text">
+    <br>
+    <h3> -- Vídeos da comunidade Red! -- </h3>
+    <p> [VIP -- Junior Dias ]: <br>  Eae galera! Fiz um video explicando como funciona o python junto com o RedXiter. Confirá!</p>
+    <iframe width="600" height="340" src="https://www.youtube.com/embed/P6E_Kts9pxE?si=8UI9qBl1jnbSS5_e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <p> [VIP -- Alexandre Saints ]: <br>  Eae tropa! Fiz um video explicando como funciona o HTML E CSS junto com o RedXiter. Confirá! </p>
+
+    <iframe width="600" height="340" src="https://www.youtube.com/embed/edDCEK5QWE8?si=5w5RYnAUlFnQlCi3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<script>
+
+let valor = document.querySelector('.comentario')
+let valorComentario = document.querySelector('.valorComentario')
+valor.addEventListener('keypress', function(event){
+
+    if(event.keyCode == 13){
+        console.log('teste')
+        valorComentario.innerHTML = valor.value
+    }
+})
+
+
+</script>
+
+</body>
+</html>

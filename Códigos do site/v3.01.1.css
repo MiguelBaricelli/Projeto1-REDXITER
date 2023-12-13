@@ -1,0 +1,31 @@
+
+body {
+
+text-align: center;
+background-color: rgb(175, 174, 174);
+width: 214vh;
+color: black;
+border-style: solid;
+font-size: 2.5vh;
+font-weight: 600;
+}
+
+h1 { 
+
+color:rgb(51, 218, 218) ;
+border-style: solid;
+border-color: aqua;
+
+}
+
+a {
+
+color: rgb(32, 62, 194);
+text-decoration: none;
+
+}
+ul {
+
+    list-style: none;
+
+}

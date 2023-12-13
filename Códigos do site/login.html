@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title> Premium RX </title>
+</head>
+<body>
+    
+        <h1>Login</h1>
+        <form id="login-form">
+            <label for="email">Email:</label>
+            <input type="email" id="email" required><br><br>
+            
+            <label for="password">Senha:</label>
+            <input type="password" id="password" required><br><br>
+            
+            <input type="submit" value="Entrar">
+        </form>
+    
+    <div id="message"></div>
+
+    <script>
+        document.getElementById("login-form").addEventListener("submit", function(event) {
+            event.preventDefault();
+
+            // Simulação de autenticação (substitua esta lógica pelo seu sistema de autenticação real)
+            var email = document.getElementById("email").value;
+            var password = document.getElementById("password").value;
+
+            if (email === "seu_email@example.com" && password === "sua_senha_segura") {
+                document.getElementById("message").innerHTML = "Login bem-sucedido!";
+            } else {
+                document.getElementById("message").innerHTML = "Credenciais inválidas. Tente novamente.";
+            }
+        });
+    </script>
+</body>
+</html>
+
+</body>
+</html>

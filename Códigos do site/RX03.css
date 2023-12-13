@@ -1,0 +1,40 @@
+body{
+
+background-color: rgb(175, 174, 174);
+text-align: center;
+border-style: solid;
+height: 135vh;
+font-size: 2.7vh;
+font-weight: 600;
+
+}
+h1 {
+
+border-style: solid;
+color: blue;
+
+
+}
+h3 {
+
+font-size: 25px;
+font-weight: 600;
+
+
+}
+
+ul {
+
+list-style: none;
+text-align: center;
+font-size: 2.5vh;
+
+
+}
+h4 {
+
+
+font-size: 2.5vh;
+
+}
+ 

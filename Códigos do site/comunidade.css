@@ -1,0 +1,33 @@
+*{
+    padding: none;
+    margin: none;
+    box-sizing: border-box;
+}
+
+
+
+header a{
+
+color: rgb(75, 71, 71);
+text-decoration: none;
+
+
+
+}
+body {
+
+background-color: rgb(148, 142, 142);
+color: rgb(0, 0, 0);
+
+}
+
+p {
+
+font-size: 20px;
+
+}
+input {
+
+border-radius: 25px;
+
+}
